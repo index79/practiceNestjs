@@ -25,7 +25,6 @@ function App() {
                     token: credentialResponse.credential,
                   }
                 );
-                console.log(data);
                 localStorage.setItem("AuthData", JSON.stringify(data));
                 setAuthData(data);
               }}
